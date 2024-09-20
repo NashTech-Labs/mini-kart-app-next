@@ -26,8 +26,8 @@ Make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/shopping-cart-app.git
-cd shopping-cart-app
+git clone https://github.com/NashTech-Labs/mini-kart-app-Next-MVC-
+cd mini-kart-app-Next-MVC-
 ```
 
 2. Install the dependencies:
@@ -54,15 +54,17 @@ NEXT_PUBLIC_API_URL=your-nextjs-url
 ```bash
 npm run dev
 ```
+
 Now, your app should be running at http://localhost:3000.
 
-
 #### Features
+
 - **Product List:** Displays a list of available products fetched from MongoDB.
 - **Add to Cart:** Allows users to add products to the cart.
 - **Cart Management:** Displays the cart contents, total quantity, and total price.
 
 #### Tech Stack
+
 - **Next.js (v14)** with the App Router
 - **TypeScript** for static typing
 - **MongoDB** for database
@@ -77,6 +79,7 @@ Now, your app should be running at http://localhost:3000.
 Before you can use the app, you'll need to add some products to your MongoDB database.
 
 Here’s an example of inserting products via MongoDB shell or a database GUI:
+
 ```bash
 use your-database
 
@@ -93,7 +96,6 @@ db.products.insertMany([
   { name: "Router", price: 99, description: "Wi-Fi 6 high-speed router" }
 ])
 ```
-
 
 ### Key Sections in the `README.md`:
 
