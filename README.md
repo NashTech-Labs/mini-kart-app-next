@@ -2,6 +2,8 @@
 
 This is a mini cart app made with NextJS following MVC architecture. This app demonstrates the state management via Redux Tool Kit (RTK) and a simple api in Nextjs using MongoDB as databse.
 
+![alt text](image.png)
+![alt text](image-1.png)
 ## Table of Contents
 
 - [Getting Started](#getting-started)
